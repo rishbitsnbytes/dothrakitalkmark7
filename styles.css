@@ -1,12 +1,31 @@
 
 
+body{
+    margin: auto;
+}
+
+.body-section{
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+    border-radius: 1rem;
+    border: 2px solid black;
+    padding: 2rem;
+
+}
+
+h1{
+    padding-bottom: 3rem;
+    margin: 1rem auto;
+    text-align: center;
+}
 
 textarea{
     border: 1px solid grey;
     width: 20rem;
     height: 5rem;
     display: block;
-    margin: 1rem;
+    margin: 2rem auto;
     padding: 1rem;
     border-radius: 2vh;
     background-color: lightgrey;
@@ -18,20 +37,29 @@ button{
     width: 10rem;
     height: 2rem;
     display: block;
-    margin: 1rem 2rem;
+    margin: 3rem auto 3rem;
     border-width: medium;
-    border-radius: 1vh;
+    border-radius: 0.5rem;
     font-weight: bold;
     font-size: medium;
+    border-style: outset;
+}
+
+.output-heading{
+    text-align: center;
+    margin: auto;
+    padding: 1rem 1rem 0.2rem 1rem;
+    font-weight: bold;
 }
 
 #output-txt{
     border: 1px solid grey;
     width: 20rem;
-    height: 5rem;
+    height: 6rem;
     display: block;
-    margin: 1rem;
+    margin: 1rem auto 3rem;
     padding: 1rem;
     border-radius: 2vh;
     background-color: lightgrey;
+    overflow: scroll;
 }
